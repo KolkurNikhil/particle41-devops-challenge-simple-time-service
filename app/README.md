@@ -1,21 +1,25 @@
-Flask IP and Timestamp Application
-📄 Overview
-This Flask application returns the client's IP address and the current UTC timestamp in JSON format. It's containerized using Docker for ease of deployment and scalability.​
+# Flask IP and Timestamp Application
 
-🛠️ Prerequisites
-Local Environment
-Docker installed on your system.
+## 📄 Overview
+This Flask application returns the client's IP address and the current UTC timestamp in JSON format. It is containerized using Docker for ease of deployment and scalability.
 
-Internet connectivity to pull base images and dependencies.​
+---
 
-AWS EC2 Instance
-An active AWS account.
+## 🛠️ Prerequisites
 
-EC2 instance running a Linux-based OS (e.g., Ubuntu).
+### Local Environment
+- Docker installed on your system.
+- Internet connectivity to pull base images and dependencies.
 
-Security group configured to allow inbound traffic on port 5000.
+### AWS EC2 Instance
+- An active AWS account.
+- EC2 instance running a Linux-based OS (e.g., Ubuntu).
+- Security group configured to allow inbound traffic on port `5000`.
+- SSH access to the EC2 instance.
 
-SSH access to the EC2 instance.​
+---
+
+## 📁 Project Structure
 
 📁 Project Structure
 project-directory/
