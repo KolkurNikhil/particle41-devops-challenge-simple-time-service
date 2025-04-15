@@ -16,7 +16,6 @@ EC2 instance running a Linux-based OS (e.g., Ubuntu).
 Security group configured to allow inbound traffic on port 5000.
 
 SSH access to the EC2 instance.​
-Code Maven
 
 📁 Project Structure
 project-directory/
@@ -24,10 +23,13 @@ project-directory/
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
+
 🐳 Dockerization
 dockerfile
 requirements.txt
 app.py
+
+
 🚀 Deployment Instructions
 Building the Docker Image
 Execute the following command in the project directory:​
@@ -35,6 +37,7 @@ docker build -t knikhil999/simpletimeservice .
 Running the Docker Container
 Run the container in detached mode and map port 5000:​
 docker run -d -p 5000:5000 flask-ip-timestamp
+
 🌐 Accessing the Application
 Local Access
 Navigate to http://localhost:5000 in your web browser.​
