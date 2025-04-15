@@ -154,5 +154,5 @@ project-directory/
 
 👨‍💻 Author
 
-Nikhil Kolkur – GitHub: https://github.com/KolkurNikhil
+Nikhil Kolkur – GitHub: https://github.com/KolkurNikhil/particle41-devops-challenge-simple-time-service
 
